@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 运行时状态（白名单与审计日志由服务器生成，不入库）
+settings/srt-settings.json
+settings/domain-requests.log
+
+# 系统文件
+.DS_Store

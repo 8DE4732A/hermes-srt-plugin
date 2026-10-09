@@ -1,0 +1,9 @@
+name: srt-sandbox
+version: 0.1.0
+description: "Run Hermes terminal commands inside Anthropic Sandbox Runtime (srt/bubblewrap): OS-level filesystem and network isolation; dangerous-command approval skipped while sandboxed; network egress allow-only with interactive domain approval via pre_tool_call."
+author: "user + Hermes"
+kind: standalone
+provides_terminal_environment_providers:
+  - srt
+provides_hooks:
+  - pre_tool_call
